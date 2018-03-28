@@ -15,5 +15,6 @@ install:
 script: 
 - docker build -t $DOCKER_USERNAME/se234-lab10-client .
 - docker push $DOCKER_USERNAME/se234-lab10-client
+env:
 
 service: docker
